@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:Invoice xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+  <ns1:UBLVersionID>2.1</ns1:UBLVersionID>
+  <ns1:ID>MIRAS-104</ns1:ID>
+  <ns1:IssueDate>2026-04-26</ns1:IssueDate>
+  <ns1:InvoiceTypeCode listID="UN/ECE 1001 Subset" listAgencyID="6">380</ns1:InvoiceTypeCode>
+  <ns1:Note languageID="en">This is a header note</ns1:Note>
+  <ns1:Note languageID="fr">#PMT# Indemnité forfaitaire pour frais de recouvrement : 40 EUR.</ns1:Note>
+  <ns1:Note languageID="fr">#PMD# Pénalités de retard exigibles conformément aux conditions contractuelles.</ns1:Note>
+  <ns1:Note languageID="fr">#AAB# Aucun escompte accordé pour paiement anticipé.</ns1:Note>
+  <ns1:TaxPointDate>2026-04-01</ns1:TaxPointDate>
+  <ns1:DocumentCurrencyCode listID="ISO 4217 Alpha" listAgencyID="6">EUR</ns1:DocumentCurrencyCode>
+  <ns1:AccountingCost>This is the account costs - not used?</ns1:AccountingCost>
+  <ns2:InvoicePeriod>
+    <ns1:StartDate>2026-04-01</ns1:StartDate>
+    <ns1:EndDate>2026-04-30</ns1:EndDate>
+  </ns2:InvoicePeriod>
+  <ns2:OrderReference>
+    <ns1:ID>P472-000000488</ns1:ID>
+  </ns2:OrderReference>
+  <ns2:ContractDocumentReference>
+    <ns1:ID>CON-123</ns1:ID>
+    <ns1:DocumentType>Contract framework agreement</ns1:DocumentType>
+  </ns2:ContractDocumentReference>
+  <ns2:AdditionalDocumentReference>
+    <ns1:ID>ADD-DOC1</ns1:ID>
+    <ns1:DocumentType>Drawing PDF</ns1:DocumentType>
+    <ns2:Attachment>
+      <ns1:EmbeddedDocumentBinaryObject mimeCode="application/pdf">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</ns1:EmbeddedDocumentBinaryObject>
+    </ns2:Attachment>
+  </ns2:AdditionalDocumentReference>
+  <ns2:AccountingSupplierParty>
+    <ns2:Party>
+      <ns1:EndpointID schemeID="0225" schemeAgencyID="9">494064355</ns1:EndpointID>
+      <ns2:PartyIdentification>
+        <ns1:ID schemeID="ZZZ">Supp123</ns1:ID>
+      </ns2:PartyIdentification>
+      <ns2:PartyName>
+        <ns1:Name>DFDS Seaways France</ns1:Name>
+      </ns2:PartyName>
+      <ns2:PostalAddress>
+        <ns1:StreetName>7 QUAI GASTON LALITTE</ns1:StreetName>
+        <ns1:AdditionalStreetName>Suite 123</ns1:AdditionalStreetName>
+        <ns1:BuildingNumber>1</ns1:BuildingNumber>
+        <ns1:Department>Revenue department</ns1:Department>
+        <ns1:CityName>DIEPPE</ns1:CityName>
+        <ns1:PostalZone>76200</ns1:PostalZone>
+        <ns1:CountrySubentityCode>FR</ns1:CountrySubentityCode>
+        <ns2:Country>
+          <ns1:IdentificationCode listID="ISO3166-1" listAgencyID="6">FR</ns1:IdentificationCode>
+        </ns2:Country>
+      </ns2:PostalAddress>
+      <ns2:PartyTaxScheme>
+        <ns1:CompanyID schemeID="VAT" schemeAgencyID="ZZZ">FR00494064355</ns1:CompanyID>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:PartyTaxScheme>
+      <ns2:PartyLegalEntity>
+        <ns1:RegistrationName>DFDS SEAWAYS</ns1:RegistrationName>
+        <ns1:CompanyID schemeID="0002">494064355</ns1:CompanyID>
+        <ns2:RegistrationAddress>
+          <ns1:CityName>DIEPPE</ns1:CityName>
+          <ns1:CountrySubentity>FR</ns1:CountrySubentity>
+          <ns2:Country>
+            <ns1:IdentificationCode>FR</ns1:IdentificationCode>
+          </ns2:Country>
+        </ns2:RegistrationAddress>
+      </ns2:PartyLegalEntity>
+      <ns2:Contact>
+        <ns1:Name>John Smith</ns1:Name>
+        <ns1:Telephone>1234621230</ns1:Telephone>
+        <ns1:Telefax>4621231</ns1:Telefax>
+        <ns1:ElectronicMail>miras@dfds_supplier.com</ns1:ElectronicMail>
+      </ns2:Contact>
+      <ns2:Person>
+        <ns1:FirstName>Mikael</ns1:FirstName>
+        <ns1:FamilyName>Rasmussen</ns1:FamilyName>
+        <ns1:MiddleName>Vassing</ns1:MiddleName>
+        <ns1:JobTitle>Project Manager</ns1:JobTitle>
+      </ns2:Person>
+    </ns2:Party>
+  </ns2:AccountingSupplierParty>
+  <ns2:AccountingCustomerParty>
+    <ns2:Party>
+      <ns1:EndpointID schemeID="0225" schemeAgencyID="9">814494118</ns1:EndpointID>
+      <ns2:PartyIdentification>
+        <ns1:ID schemeID="ZZZ">345KS5324</ns1:ID>
+      </ns2:PartyIdentification>
+      <ns2:PartyName>
+        <ns1:Name>French Branch of DFDS A/S</ns1:Name>
+      </ns2:PartyName>
+      <ns2:PostalAddress>
+        <ns1:StreetName>Marmorvej</ns1:StreetName>
+        <ns1:BuildingNumber>18</ns1:BuildingNumber>
+        <ns1:CityName>Copenhagen</ns1:CityName>
+        <ns1:PostalZone>2100</ns1:PostalZone>
+        <ns1:CountrySubentity>DK</ns1:CountrySubentity>
+        <ns2:Country>
+          <ns1:IdentificationCode listID="ISO3166-1" listAgencyID="6">DK</ns1:IdentificationCode>
+        </ns2:Country>
+      </ns2:PostalAddress>
+      <ns2:PartyTaxScheme>
+        <ns1:CompanyID schemeID="FRVAT" schemeAgencyID="ZZZ">FR83814494118</ns1:CompanyID>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:PartyTaxScheme>
+      <ns2:PartyLegalEntity>
+        <ns1:RegistrationName>DFDS A/S</ns1:RegistrationName>
+        <ns1:CompanyID schemeAgencyID="ZZZ" schemeID="ZZZ">FR83814494118</ns1:CompanyID>
+        <ns2:RegistrationAddress>
+          <ns1:CityName>Copenhagen</ns1:CityName>
+          <ns1:CountrySubentity>DK</ns1:CountrySubentity>
+          <ns2:Country>
+            <ns1:IdentificationCode>DK</ns1:IdentificationCode>
+          </ns2:Country>
+        </ns2:RegistrationAddress>
+      </ns2:PartyLegalEntity>
+      <ns2:Contact>
+        <ns1:Telephone>5121230</ns1:Telephone>
+        <ns1:Telefax>5121231</ns1:Telefax>
+        <ns1:ElectronicMail>miras@buyercompany.eu</ns1:ElectronicMail>
+      </ns2:Contact>
+      <ns2:Person>
+        <ns1:FirstName>Mik</ns1:FirstName>
+        <ns1:FamilyName>Ras</ns1:FamilyName>
+        <ns1:MiddleName>Vas</ns1:MiddleName>
+        <ns1:JobTitle>Purchasing manager</ns1:JobTitle>
+      </ns2:Person>
+    </ns2:Party>
+  </ns2:AccountingCustomerParty>
+  <ns2:PayeeParty>
+    <ns2:PartyIdentification>
+      <ns1:ID schemeID="0002" schemeAgencyID="9">814494118</ns1:ID>
+    </ns2:PartyIdentification>
+    <ns2:PartyName>
+      <ns1:Name>DFDS SEAWAYS </ns1:Name>
+    </ns2:PartyName>
+    <ns2:PartyLegalEntity>
+      <ns1:CompanyID schemeID="0002" schemeAgencyID="ZZZ">814494118</ns1:CompanyID>
+    </ns2:PartyLegalEntity>
+  </ns2:PayeeParty>
+  <ns2:Delivery>
+    <ns1:ActualDeliveryDate>2026-04-20</ns1:ActualDeliveryDate>
+    <ns2:DeliveryLocation>
+      <ns1:ID schemeID="GLN" schemeAgencyID="9">6754238987648</ns1:ID>
+      <ns2:Address>
+        <ns1:StreetName>Deliverystreet</ns1:StreetName>
+        <ns1:AdditionalStreetName>Side door</ns1:AdditionalStreetName>
+        <ns1:BuildingNumber>12</ns1:BuildingNumber>
+        <ns1:CityName>DeliveryCity</ns1:CityName>
+        <ns1:PostalZone>523427</ns1:PostalZone>
+        <ns1:CountrySubentity>RegionC</ns1:CountrySubentity>
+        <ns2:Country>
+          <ns1:IdentificationCode>BE</ns1:IdentificationCode>
+        </ns2:Country>
+      </ns2:Address>
+    </ns2:DeliveryLocation>
+  </ns2:Delivery>
+  <ns2:PaymentMeans>
+    <ns1:PaymentMeansCode listID="UN/ECE 4461">31</ns1:PaymentMeansCode>
+    <ns1:PaymentDueDate>2026-05-31</ns1:PaymentDueDate>
+    <ns1:PaymentChannelCode>IBAN</ns1:PaymentChannelCode>
+    <ns1:PaymentID>001182374534712</ns1:PaymentID>
+    <ns2:PayeeFinancialAccount>
+      <ns1:ID>DK1212341234123412</ns1:ID>
+      <ns1:Name>DANSKE BANK EUR ACCOUNT</ns1:Name>
+      <ns2:FinancialInstitutionBranch>
+        <ns2:FinancialInstitution>
+          <ns1:ID>DKDKABCD</ns1:ID>
+        </ns2:FinancialInstitution>
+      </ns2:FinancialInstitutionBranch>
+    </ns2:PayeeFinancialAccount>
+  </ns2:PaymentMeans>
+  <ns2:PaymentTerms>
+    <ns1:Note>Net within 30 days</ns1:Note>
+    <ns1:Note>Penalty percentage 10% from due date</ns1:Note>
+  </ns2:PaymentTerms>
+  <ns2:AllowanceCharge>
+    <ns1:ChargeIndicator>true</ns1:ChargeIndicator>
+    <ns1:AllowanceChargeReason>Packing cost</ns1:AllowanceChargeReason>
+    <ns1:Amount currencyID="EUR">100</ns1:Amount>
+  </ns2:AllowanceCharge>
+  <ns2:AllowanceCharge>
+    <ns1:ChargeIndicator>false</ns1:ChargeIndicator>
+    <ns1:AllowanceChargeReason>Promotion discount</ns1:AllowanceChargeReason>
+    <ns1:Amount currencyID="EUR">100</ns1:Amount>
+  </ns2:AllowanceCharge>
+  <ns2:TaxTotal>
+    <ns1:TaxAmount currencyID="EUR">292.20</ns1:TaxAmount>
+    <ns2:TaxSubtotal>
+      <ns1:TaxableAmount currencyID="EUR">1460.5</ns1:TaxableAmount>
+      <ns1:TaxAmount currencyID="EUR">292.1</ns1:TaxAmount>
+      <ns2:TaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>20</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:TaxCategory>
+    </ns2:TaxSubtotal>
+    <ns2:TaxSubtotal>
+      <ns1:TaxableAmount currencyID="EUR">1</ns1:TaxableAmount>
+      <ns1:TaxAmount currencyID="EUR">0.1</ns1:TaxAmount>
+      <ns2:TaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>10</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:TaxCategory>
+    </ns2:TaxSubtotal>
+    <ns2:TaxSubtotal>
+      <ns1:TaxableAmount currencyID="EUR">-25</ns1:TaxableAmount>
+      <ns1:TaxAmount currencyID="EUR">0</ns1:TaxAmount>
+      <ns2:TaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">E</ns1:ID>
+        <ns1:Percent>0</ns1:Percent>
+        <ns1:TaxExemptionReasonCode listID="CWA 15577" listAgencyID="ZZZ">AAM</ns1:TaxExemptionReasonCode>
+        <ns1:TaxExemptionReason>Exempt New Means of Transport</ns1:TaxExemptionReason>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:TaxCategory>
+    </ns2:TaxSubtotal>
+  </ns2:TaxTotal>
+  <ns2:LegalMonetaryTotal>
+    <ns1:LineExtensionAmount currencyID="EUR">1436.5</ns1:LineExtensionAmount>
+    <ns1:TaxExclusiveAmount currencyID="EUR">1436.5</ns1:TaxExclusiveAmount>
+    <ns1:TaxInclusiveAmount currencyID="EUR">1729</ns1:TaxInclusiveAmount>
+    <ns1:AllowanceTotalAmount currencyID="EUR">100</ns1:AllowanceTotalAmount>
+    <ns1:ChargeTotalAmount currencyID="EUR">100</ns1:ChargeTotalAmount>
+    <ns1:PrepaidAmount currencyID="EUR">0</ns1:PrepaidAmount>
+    <ns1:PayableRoundingAmount currencyID="EUR">0.30</ns1:PayableRoundingAmount>
+    <ns1:PayableAmount currencyID="EUR">1729</ns1:PayableAmount>
+  </ns2:LegalMonetaryTotal>
+  <ns2:InvoiceLine>
+    <ns1:ID>1</ns1:ID>
+    <ns1:Note>Scratch on box</ns1:Note>
+    <ns1:InvoicedQuantity unitCode="EA">1</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount currencyID="EUR">1273</ns1:LineExtensionAmount>
+    <ns1:AccountingCost>BookingCode001</ns1:AccountingCost>
+    <ns2:OrderLineReference>
+      <ns1:LineID>OLR-1</ns1:LineID>
+    </ns2:OrderLineReference>
+    <ns2:AllowanceCharge>
+      <ns1:ChargeIndicator>false</ns1:ChargeIndicator>
+      <ns1:AllowanceChargeReason>Damage</ns1:AllowanceChargeReason>
+      <ns1:Amount currencyID="EUR">12</ns1:Amount>
+    </ns2:AllowanceCharge>
+    <ns2:AllowanceCharge>
+      <ns1:ChargeIndicator>true</ns1:ChargeIndicator>
+      <ns1:AllowanceChargeReason>Testing</ns1:AllowanceChargeReason>
+      <ns1:Amount currencyID="EUR">10</ns1:Amount>
+    </ns2:AllowanceCharge>
+    <ns2:TaxTotal>
+      <ns1:TaxAmount currencyID="EUR">254.6</ns1:TaxAmount>
+    </ns2:TaxTotal>
+    <ns2:Item>
+      <ns1:Description languageID="EN">Processor: Intel Core 2 Duo SU9400 LV (1.4GHz). RAM:
+				3MB. Screen 1440x900</ns1:Description>
+      <ns1:Name>Labtop computer</ns1:Name>
+      <ns2:SellersItemIdentification>
+        <ns1:ID>JB007</ns1:ID>
+      </ns2:SellersItemIdentification>
+      <ns2:StandardItemIdentification>
+        <ns1:ID schemeID="GTIN" schemeAgencyID="9">1234567890124</ns1:ID>
+      </ns2:StandardItemIdentification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="113" listID="UNSPSC">12344321</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="2" listID="CPV">65434568</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:ClassifiedTaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>20</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:ClassifiedTaxCategory>
+      <ns2:AdditionalItemProperty>
+        <ns1:Name>Color</ns1:Name>
+        <ns1:Value>black</ns1:Value>
+      </ns2:AdditionalItemProperty>
+    </ns2:Item>
+    <ns2:Price>
+      <ns1:PriceAmount currencyID="EUR">1273</ns1:PriceAmount>
+      <ns1:BaseQuantity unitCode="C62">1</ns1:BaseQuantity>
+      <ns2:AllowanceCharge>
+        <ns1:ChargeIndicator>false</ns1:ChargeIndicator>
+        <ns1:AllowanceChargeReason>Contract</ns1:AllowanceChargeReason>
+        <ns1:MultiplierFactorNumeric>0.15</ns1:MultiplierFactorNumeric>
+        <ns1:Amount currencyID="EUR">225</ns1:Amount>
+        <ns1:BaseAmount currencyID="EUR">1500</ns1:BaseAmount>
+      </ns2:AllowanceCharge>
+    </ns2:Price>
+  </ns2:InvoiceLine>
+  <ns2:InvoiceLine>
+    <ns1:ID>2</ns1:ID>
+    <ns1:Note>Cover is slightly damaged.</ns1:Note>
+    <ns1:InvoicedQuantity unitCode="C62">-1</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount currencyID="EUR">-3.40</ns1:LineExtensionAmount>
+    <ns2:OrderLineReference>
+      <ns1:LineID>5</ns1:LineID>
+    </ns2:OrderLineReference>
+    <ns2:TaxTotal>
+      <ns1:TaxAmount currencyID="EUR">-0.39</ns1:TaxAmount>
+    </ns2:TaxTotal>
+    <ns2:Item>
+      <ns1:Name>Returned "Advanced computing" book</ns1:Name>
+      <ns2:SellersItemIdentification>
+        <ns1:ID>JB008</ns1:ID>
+      </ns2:SellersItemIdentification>
+      <ns2:StandardItemIdentification>
+        <ns1:ID schemeID="GTIN" schemeAgencyID="9">1234567890125</ns1:ID>
+      </ns2:StandardItemIdentification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="113" listID="UNSPSC">32344324</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="2" listID="CPV">65434567</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:ClassifiedTaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>10</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:ClassifiedTaxCategory>
+    </ns2:Item>
+    <ns2:Price>
+      <ns1:PriceAmount currencyID="EUR">3.96</ns1:PriceAmount>
+      <ns1:BaseQuantity unitCode="C62">1</ns1:BaseQuantity>
+    </ns2:Price>
+  </ns2:InvoiceLine>
+  <ns2:InvoiceLine>
+    <ns1:ID>3</ns1:ID>
+    <ns1:InvoicedQuantity unitCode="C62">2</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount currencyID="EUR">4.96</ns1:LineExtensionAmount>
+    <ns2:OrderLineReference>
+      <ns1:LineID>3</ns1:LineID>
+    </ns2:OrderLineReference>
+    <ns2:TaxTotal>
+      <ns1:TaxAmount currencyID="EUR">0.50</ns1:TaxAmount>
+    </ns2:TaxTotal>
+    <ns2:Item>
+      <ns1:Name>"Computing for dummies" book</ns1:Name>
+      <ns2:SellersItemIdentification>
+        <ns1:ID>JB009</ns1:ID>
+      </ns2:SellersItemIdentification>
+      <ns2:StandardItemIdentification>
+        <ns1:ID schemeID="GTIN" schemeAgencyID="9">1234567890126</ns1:ID>
+      </ns2:StandardItemIdentification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="113" listID="UNSPSC">32344324</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="2" listID="CPV">65434566</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:ClassifiedTaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>10</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:ClassifiedTaxCategory>
+    </ns2:Item>
+    <ns2:Price>
+      <ns1:PriceAmount currencyID="EUR">2.48</ns1:PriceAmount>
+      <ns1:BaseQuantity unitCode="C62">1</ns1:BaseQuantity>
+      <ns2:AllowanceCharge>
+        <ns1:ChargeIndicator>false</ns1:ChargeIndicator>
+        <ns1:AllowanceChargeReason>Contract</ns1:AllowanceChargeReason>
+        <ns1:MultiplierFactorNumeric>0.1</ns1:MultiplierFactorNumeric>
+        <ns1:Amount currencyID="EUR">0.275</ns1:Amount>
+        <ns1:BaseAmount currencyID="EUR">2.75</ns1:BaseAmount>
+      </ns2:AllowanceCharge>
+    </ns2:Price>
+  </ns2:InvoiceLine>
+  <ns2:InvoiceLine>
+    <ns1:ID>4</ns1:ID>
+    <ns1:InvoicedQuantity unitCode="C62">-1</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount currencyID="EUR">-25</ns1:LineExtensionAmount>
+    <ns2:OrderLineReference>
+      <ns1:LineID>2</ns1:LineID>
+    </ns2:OrderLineReference>
+    <ns2:TaxTotal>
+      <ns1:TaxAmount currencyID="EUR">0</ns1:TaxAmount>
+    </ns2:TaxTotal>
+    <ns2:Item>
+      <ns1:Name>Returned IBM 5150 desktop</ns1:Name>
+      <ns2:SellersItemIdentification>
+        <ns1:ID>JB010</ns1:ID>
+      </ns2:SellersItemIdentification>
+      <ns2:StandardItemIdentification>
+        <ns1:ID schemeID="GTIN" schemeAgencyID="9">1234567890127</ns1:ID>
+      </ns2:StandardItemIdentification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="113" listID="UNSPSC">12344322</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="2" listID="CPV">65434565</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:ClassifiedTaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">E</ns1:ID>
+        <ns1:Percent>0</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:ClassifiedTaxCategory>
+    </ns2:Item>
+    <ns2:Price>
+      <ns1:PriceAmount currencyID="EUR">25</ns1:PriceAmount>
+      <ns1:BaseQuantity unitCode="C62">1</ns1:BaseQuantity>
+    </ns2:Price>
+  </ns2:InvoiceLine>
+  <ns2:InvoiceLine>
+    <ns1:ID>5</ns1:ID>
+    <ns1:InvoicedQuantity unitCode="C62">250</ns1:InvoicedQuantity>
+    <ns1:LineExtensionAmount currencyID="EUR">187.5</ns1:LineExtensionAmount>
+    <ns1:AccountingCost>BookingCode002</ns1:AccountingCost>
+    <ns2:OrderLineReference>
+      <ns1:LineID>4</ns1:LineID>
+    </ns2:OrderLineReference>
+    <ns2:TaxTotal>
+      <ns1:TaxAmount currencyID="EUR">37.5</ns1:TaxAmount>
+    </ns2:TaxTotal>
+    <ns2:Item>
+      <ns1:Name>Network cable</ns1:Name>
+      <ns2:SellersItemIdentification>
+        <ns1:ID>JB011</ns1:ID>
+      </ns2:SellersItemIdentification>
+      <ns2:StandardItemIdentification>
+        <ns1:ID schemeID="GTIN" schemeAgencyID="9">1234567890128</ns1:ID>
+      </ns2:StandardItemIdentification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="113" listID="UNSPSC">12344325</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:CommodityClassification>
+        <ns1:ItemClassificationCode listAgencyID="2" listID="CPV">65434564</ns1:ItemClassificationCode>
+      </ns2:CommodityClassification>
+      <ns2:ClassifiedTaxCategory>
+        <ns1:ID schemeID="UN/ECE 5305" schemeAgencyID="6">S</ns1:ID>
+        <ns1:Percent>20</ns1:Percent>
+        <ns2:TaxScheme>
+          <ns1:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</ns1:ID>
+        </ns2:TaxScheme>
+      </ns2:ClassifiedTaxCategory>
+      <ns2:AdditionalItemProperty>
+        <ns1:Name>Type</ns1:Name>
+        <ns1:Value>Cat5</ns1:Value>
+      </ns2:AdditionalItemProperty>
+    </ns2:Item>
+    <ns2:Price>
+      <ns1:PriceAmount currencyID="EUR">0.75</ns1:PriceAmount>
+      <ns1:BaseQuantity unitCode="C62">1</ns1:BaseQuantity>
+    </ns2:Price>
+  </ns2:InvoiceLine>
+</ns0:Invoice>
