@@ -1,0 +1,197 @@
+{
+  "name": "Test-v1",
+  "country": "Germany",
+  "description": null,
+  "version": "1",
+  "canvas": {
+    "width": 1200,
+    "height": 800,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "id": "el-textbox-1-mp0n6ijy",
+      "type": "textbox",
+      "label": "UBLVersionID",
+      "xmlPath": "/Invoice/UBLVersionID",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 221.0,
+      "y": 75.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": "#ff3d3d",
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-2-mp0n6lq9",
+      "type": "textbox",
+      "label": "IssueDate",
+      "xmlPath": "/Invoice/InvoicePeriod/StartDate",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 479.0,
+      "y": 75.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-3-mp0n6tat",
+      "type": "textbox",
+      "label": "InvoicePeriod",
+      "xmlPath": "/Invoice/InvoicePeriod",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 247.0,
+      "y": 202.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-4-mp0n75f6",
+      "type": "textbox",
+      "label": "PayeeParty",
+      "xmlPath": "/Invoice/PayeeParty",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 535.0,
+      "y": 206.77777862548828,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-5-mp0n77g5",
+      "type": "textbox",
+      "label": "PartyIdentification",
+      "xmlPath": "/Invoice/PayeeParty/PartyIdentification",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 474.0,
+      "y": 359.7777786254883,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-table-6-mp0n7cx0",
+      "type": "table",
+      "label": "Table",
+      "xmlPath": null,
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 41.0,
+      "y": 40.0,
+      "width": 600.0,
+      "height": 240.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Issue Date",
+          "xmlPath": "11-05-2026",
+          "width": null
+        },
+        {
+          "id": "col-2",
+          "label": "InvoiceType",
+          "xmlPath": "Logistic",
+          "width": null
+        }
+      ]
+    },
+    {
+      "id": "el-textbox-7-mp0n7hp4",
+      "type": "textbox",
+      "label": "Text",
+      "xmlPath": null,
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 114.0,
+      "y": 432.0,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    }
+  ],
+  "id": "germany-test-v1-f3998f",
+  "createdAt": "2026-05-11T03:30:29.732319Z",
+  "updatedAt": "2026-05-11T03:30:29.732319Z"
+}

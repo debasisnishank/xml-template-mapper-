@@ -1,0 +1,112 @@
+{
+  "name": "Test-v2",
+  "country": "Belgium",
+  "description": null,
+  "version": "1",
+  "canvas": {
+    "width": 1200,
+    "height": 800,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "id": "el-textbox-3-mp0ngsqi",
+      "type": "textbox",
+      "label": "Invoice",
+      "xmlPath": "/Invoice",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 40.0,
+      "y": 40.0,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-4-mp0ngvr8",
+      "type": "textbox",
+      "label": "UBLVersionID",
+      "xmlPath": "/Invoice/UBLVersionID",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 157.0,
+      "y": 104.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-5-mp0ngymy",
+      "type": "textbox",
+      "label": "IssueDate",
+      "xmlPath": "/Invoice/IssueDate",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 490.0,
+      "y": 111.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    },
+    {
+      "id": "el-textbox-6-mp0nh2jd",
+      "type": "textbox",
+      "label": "TaxPointDate",
+      "xmlPath": "/Invoice/TaxPointDate",
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 239.0,
+      "y": 214.11111450195312,
+      "width": 200.0,
+      "height": 36.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": null
+    }
+  ],
+  "id": "belgium-test-v2-aac0c0",
+  "createdAt": "2026-05-11T03:36:48.446915Z",
+  "updatedAt": "2026-05-11T03:36:48.446915Z"
+}

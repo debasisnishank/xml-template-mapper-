@@ -1,0 +1,53 @@
+{
+  "name": "Test-v1",
+  "country": "Germany",
+  "description": null,
+  "version": "1",
+  "canvas": {
+    "width": 1200,
+    "height": 800,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "id": "el-table-6-mp0n7cx0",
+      "type": "table",
+      "label": "Invoice",
+      "xmlPath": null,
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 161.0,
+      "y": 61.0,
+      "width": 600.0,
+      "height": 240.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Issue Date",
+          "xmlPath": "11-05-2026",
+          "width": null
+        },
+        {
+          "id": "col-2",
+          "label": "InvoiceType",
+          "xmlPath": "Logistic",
+          "width": null
+        }
+      ]
+    }
+  ],
+  "id": "germany-test-v1-f4e022",
+  "createdAt": "2026-05-11T03:31:17.092545Z",
+  "updatedAt": "2026-05-11T03:31:17.092545Z"
+}

@@ -1,0 +1,9 @@
+[project]
+name = "xml-template-mapper-backend"
+version = "0.1.0"
+description = "Backend API for the XML Template Mapper POC"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

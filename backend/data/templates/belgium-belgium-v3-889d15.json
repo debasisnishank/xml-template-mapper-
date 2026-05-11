@@ -1,0 +1,53 @@
+{
+  "name": "Belgium-v3",
+  "country": "Belgium",
+  "description": null,
+  "version": "1",
+  "canvas": {
+    "width": 1200,
+    "height": 800,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "id": "el-table-12-mp0nrnib",
+      "type": "table",
+      "label": "Invoice ",
+      "xmlPath": null,
+      "staticValue": null,
+      "mode": "dynamic",
+      "x": 41.0,
+      "y": 41.0,
+      "width": 600.0,
+      "height": 240.0,
+      "format": {
+        "font": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "color": null,
+        "align": null,
+        "dateFormat": null,
+        "numberFormat": null,
+        "visible": true
+      },
+      "repeatPath": null,
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Date",
+          "xmlPath": "10-05-26",
+          "width": null
+        },
+        {
+          "id": "col-2",
+          "label": "IssueDate",
+          "xmlPath": "26-04-26",
+          "width": null
+        }
+      ]
+    }
+  ],
+  "id": "belgium-belgium-v3-889d15",
+  "createdAt": "2026-05-11T03:46:08.075429Z",
+  "updatedAt": "2026-05-11T03:46:08.075429Z"
+}
